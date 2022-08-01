@@ -1,8 +1,8 @@
 str1 = "Emma25 is Data scientist50 and AI Expert"
 s = str1.split()
-n = []
+
+##iterating the values and the checking the value with digits and alphabets
 
 for i in s:
-    if any(i.isalpha()):
-        n.append[i]
-print(n)
+    if i.isalpha() == i.isdigit():
+        print(i)
