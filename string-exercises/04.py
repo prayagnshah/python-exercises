@@ -1,5 +1,5 @@
 str1 = "PyNaTive"  ##given string
-str_new = ""
+str_new = ""   # adding the new data in the format of string. 
 
 ##iterating the string
 for c in str1:
