@@ -6,12 +6,12 @@ class Vehicle:
 
 
 ##inheriting the class bus under Vehicle
-class Bus:
+class Bus(Vehicle):
     pass
 
 
 ##assigning the value for class Vehicle
-info = Vehicle("School Volvo", 180, 12)
+info = Bus("School Volvo", 180, 12)
 
 
 print("Vehicle Name: ", info.name, "Speed: ", info.max_speed, "Mileage: ", info.mileage)

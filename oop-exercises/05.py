@@ -17,7 +17,7 @@ class Car(Vehicle):
     pass
 
 
-school = Vehicle(" School Volvo", 180, 12)
+school = Bus(" School Volvo", 180, 12)
 car = Car("Audi Q5", 240, 18)
 print(school.color, school.name, school.max_speed, school.mileage)
 print(car.color, car.name, car.max_speed, car.mileage)
