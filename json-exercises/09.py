@@ -7,8 +7,12 @@ sampleJson = [
 
 contents = []
 
-try:
-    with open("sampleJson.json", "r") as file:
-        contents = json.load(file)
-except Exception as e:
-    print(e)
+for i in sampleJson:
+    contents.append(i["name"])
+print(contents)
+
+# try:
+#     with open("sampleJson.json", "r") as file:
+#         contents = json.load(file)
+# except Exception as e:
+#     print(e)
