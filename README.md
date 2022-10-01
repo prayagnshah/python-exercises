@@ -8,7 +8,7 @@
 * for-loop
 * json
 * list
-* map-flter-reduce
+* map-filter-reduce
 * object-oriented-programming
 * rest-api
 * set
