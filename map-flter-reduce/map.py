@@ -16,8 +16,13 @@ print(numbers[2])
 
 ##using function and map at the same time
 
-def square(a):
-    return a*a
+def square(num):
+    return num*num
+
+test_number = 5
+
+result = print(square(test_number))
+
 
 sq_num = list(map(square, numbers))
 
@@ -30,20 +35,6 @@ square_num = list(map(lambda s: s*s, numbers))
 print(square_num)
 
 
-
-##Taking two different functions and then using map and lambda
-
-def a(a):
-    return a*a
-
-def b(b):
-    return b*b*b
-
-func = [a, b]
-
-for i in range(5):
-    value = list(map(lambda x:x(i), func))
-    print(value)
 
 ##using map function and adding the numbers so concatenating int to list
 

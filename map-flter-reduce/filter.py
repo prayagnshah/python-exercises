@@ -9,6 +9,15 @@ val = list(filter(less_than, list_1))
 
 print(val)
 
+#**************using the same above example without using filter**************
+
+new_res = []
+for i in range(0, len(list_1)):
+    if list_1[i] > 5:
+        new_res.append(list_1[i])
+print(new_res)
+
+
 
 ##trying to use the filter using the lambda function
 
